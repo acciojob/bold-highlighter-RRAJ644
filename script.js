@@ -1,12 +1,11 @@
 function highlight() {
-    //Write your code here
-
-
+    document.querySelectorAll("strong").forEach(element => {
+        element.style.color = "green";
+    });
 }
 
-
 function return_normal() {
-    //Write your code here
-
-    
+    document.querySelectorAll("strong").forEach(element => {
+        element.style.color = "black";
+    });
 }
